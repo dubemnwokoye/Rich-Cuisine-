@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservationǁ Rich Cuisineǁ Home of Healthy Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="header">Rich Cuisine</h1>
+        <!-- <div class="navbar"> -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./about us.html">ABOUT</a></li>
+                <li><a href="./menu.html">MENU</a></li>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="brunch.html">Brunch</a></li>
+                            <li><a href="local dishes.html">Local Dishes</a></li>
+                            <li><a href="inter-continental dishes.html">Inter-Continental Dishes</a></li>
+                        </ul>
+                    </div>
+                <li><a href="./gallery.html">GALLERY</a></li>
+                <li><a href="./team.html">TEAM</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="./login main page.html">SIGN IN</a></li>
+                <li><a class="reservation" href="./reservation.html">RESERVATION</a></li>
+            </ul>
+        <!-- </div> -->
+    </div>
+
+    <h2 class="booking">Place your booking NOW!!!</h2>
+    <section class="reserve-section">
+        <form class="reserve" action="https://api.whatsapp.com/send?phone=2349029101860&text=Hello,%20My%20name%20is%20_____%20I%20am%20calling%20to%20book%20a%20reservation%20for%20___%20persons.">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <br>
+
+            <label for="date">Date for reservation</label>
+            <input type="text" id="date" name="date">
+            <br>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Describe your event including the number of Guests expected"></textarea>
+            <br>
+                <div>
+                    <h3 class="num"><a href="https://api.whatsapp.com/send?phone=2349029101860&text=Hello,%20my%20name%20is%20______.%20I%20am%20calling%20to%20book%20a%20reservation%20for%20______%20persons.">BOOK A RESERVATION NOW</a></h3>
+                </div>
+            <!-- <input type="submit" class="send-message-cta" value="Send message"> -->
+        </form>
+    </section>
+</body>
+</html>
